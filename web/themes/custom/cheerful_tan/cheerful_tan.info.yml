@@ -10,7 +10,8 @@ ckeditor_stylesheets:
 ckeditor5-stylesheets:
   - css/ck5style.css
 regions:
-  header: Header
+  header_left: Header left
+  header_right: Header right
   nav_branding: 'Navigation branding region'
   nav_main: 'Main navigation region'
   nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
