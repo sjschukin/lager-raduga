@@ -7,3 +7,60 @@
 
 // Include bootstrap.
 @import '../../../../themes/contrib/bootstrap5/scss/style';
+
+// Mixins
+@import 'mixins';
+// Variables
+@import 'variables';
+// Buttons
+@import 'buttons';
+// Typography
+@import 'typography';
+// Basic End
+
+// Template Section Style Start
+
+// About
+@import 'about';
+// Animation
+@import 'animation';
+// Brand
+@import 'brand';
+// Contact
+@import 'contact';
+// Cta
+@import 'cta';
+// Event
+@import 'event';
+// Faq
+@import 'faq';
+// Feature
+@import 'feature';
+// Footer
+@import 'footer';
+// Header
+@import 'header';
+// Helping
+@import 'helping';
+// Hero
+@import 'hero';
+// Marquee
+@import 'marquee';
+// MeanMenu
+@import 'meanmenu';
+// News
+@import 'news';
+// Preloader
+@import 'preloader';
+// Pricing
+@import 'pricing';
+// Program
+@import 'programs';
+// Section
+@import 'section';
+// Service
+@import 'service';
+// Team
+@import 'team';
+// Testimonial
+@import 'testimonial';
