@@ -1,19 +1,21 @@
-
 //page scroll bar add
 ::-webkit-scrollbar {
-	width: 4px;
-	height: 4px;
+  width: 4px;
+  height: 4px;
 }
+
 /* Track */
 ::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px $theme-color; 
-	border-radius: 5px;
+  box-shadow: inset 0 0 5px $theme-color;
+  border-radius: 5px;
 }
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: $theme-color;
-	border-radius: 10px;
+  background: $theme-color;
+  border-radius: 10px;
 }
+
 //page scroll bar add
 
 //Basic Code Start
@@ -21,51 +23,54 @@
   overflow: hidden;
 }
 
-.ralt{
- position: relative;
+.ralt {
+  position: relative;
 }
 
-.ml-100{
+.ml-100 {
   margin-left: 100px;
 }
+
 //Basic Code End
 
 //Video Css Start
 .ripple {
   position: relative;
 
-  &::before,&::after {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      width: 60px;
-      height: 60px;
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%);
-      border-radius: 50%;
-      box-shadow: 0 0 0 0 rgba(243, 159, 95, 0.5);
-      -webkit-animation: rippleOne 3s infinite;
-      animation: rippleOne 3s infinite;
+  &::before,
+  &::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(243, 159, 95, 0.5);
+    -webkit-animation: rippleOne 3s infinite;
+    animation: rippleOne 3s infinite;
   }
 
   &::before {
-      -webkit-animation-delay: 0.9s;
-      animation-delay: 0.9s;
-      content: "";
-      position: absolute;
-      right: 0;
-      bottom: 0;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
 
   &::after {
-      -webkit-animation-delay: 0.6s;
-      animation-delay: 0.6s;
-      content: "";
-      position: absolute;
-      right: 0;
-      bottom: 0;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
 }
+
 //Video Css End
 
 //pagination default
@@ -75,102 +80,105 @@
   margin-bottom: 2px;
   position: relative;
 
-      &::before {
-        position: absolute;
-        bottom: 13px;
-        left: 37%;
-        transform: translate(-50%,-50%);
-        width: 105px;
-        height: 2px;
-        background: linear-gradient(90deg, #F39F5F 4.85%, rgba(255, 255, 255, 0.00) 96.39%);
-        content: "";
-        transform: rotate(-180deg);
+  &::before {
+    position: absolute;
+    bottom: 13px;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    width: 105px;
+    height: 2px;
+    background: linear-gradient(90deg, #F39F5F 4.85%, rgba(255, 255, 255, 0.00) 96.39%);
+    content: "";
+    transform: rotate(-180deg);
 
-        @include breakpoint (max-xxl){
-            display: none;
-        }
+    @include breakpoint (max-xxl) {
+      display: none;
     }
-
-    &::after {
-        position: absolute;
-        bottom: 13px;
-        right: 37%;
-        width: 105px;
-        height: 2px;
-        background: linear-gradient(90deg, #F39F5F 4.85%, rgba(255, 255, 255, 0.00) 96.39%);
-        content: "";
-
-        @include breakpoint (max-xxl){
-            display: none;
-        }
-    }
-  .swiper-pagination-bullet {
-      width: 10px;
-      height: 10px;
-      transition: 0.6s;
-      background-color: $theme-color;
-      opacity: 1;
-      border-radius: 10px;
-      &:not(:last-child){
-        margin-right: 15px;
-      }
   }
-  .swiper-pagination-bullet.swiper-pagination-bullet-active {
-      background-color: $theme-color;
-      transition: 0.6s;
-      position: relative;
 
-      &::before{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        top: -10px;
-        left: -10px;
-        border-radius: 50%;
-        background-color: transparent;
-        border: 2px solid $theme-color;
-        content: "";
-      }
-   }
+  &::after {
+    position: absolute;
+    bottom: 13px;
+    right: 37%;
+    width: 105px;
+    height: 2px;
+    background: linear-gradient(90deg, #F39F5F 4.85%, rgba(255, 255, 255, 0.00) 96.39%);
+    content: "";
+
+    @include breakpoint (max-xxl) {
+      display: none;
+    }
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    transition: 0.6s;
+    background-color: $theme-color;
+    opacity: 1;
+    border-radius: 10px;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: $theme-color;
+    transition: 0.6s;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      top: -10px;
+      left: -10px;
+      border-radius: 50%;
+      background-color: transparent;
+      border: 2px solid $theme-color;
+      content: "";
+    }
+  }
 }
 
 
 .array-button {
-    @include flex;
-    gap: 15px;
+  @include flex;
+  gap: 15px;
 
-    .array-prev {
-      width: 61px;
-      height: 56px;
-      line-height: 56px;
-      text-align: center;
-      background-color: $white;
-      color: $header-color;
-      border-radius: 22px;
-      @include transition;
+  .array-prev {
+    width: 61px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background-color: $white;
+    color: $header-color;
+    border-radius: 22px;
+    @include transition;
 
-      &:hover {
-          background-color: $theme-color;
-          color: $white;
-      }
+    &:hover {
+      background-color: $theme-color;
+      color: $white;
+    }
   }
 
   .array-next {
-     
-      width: 61px;
-      height: 56px;
-      line-height: 56px;
-      text-align: center;
-      background-color: $theme-color;
-      color: $white;
-      border-radius: 22px;
-      @include transition;
 
-      &:hover {
-          background-color: $white;
-          color: $theme-color;
-      }
+    width: 61px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background-color: $theme-color;
+    color: $white;
+    border-radius: 22px;
+    @include transition;
+
+    &:hover {
+      background-color: $white;
+      color: $theme-color;
+    }
   }
 }
 
@@ -181,7 +189,7 @@
 }
 
 br {
-  @include breakpoint(max-md){
+  @include breakpoint(max-md) {
     display: none;
   }
 }
@@ -214,31 +222,32 @@ br {
 //>>>>> Nice Select Css Start <<<<<//
 
 .nice-select {
-    background-color: transparent;
-    border: transparent;
-    float: initial;
-    overflow: initial;
-    height: initial;
-    padding: 0;
-    display: inline-flex;
-    align-items: center;
-    line-height: 150%;
-    width: 100%;
-    border: none;
+  background-color: transparent;
+  border: transparent;
+  float: initial;
+  overflow: initial;
+  height: initial;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  line-height: 150%;
+  width: 100%;
+  border: none;
 
-    &:focus, &:hover {
-      border-color: transparent;
-    }
+  &:focus,
+  &:hover {
+    border-color: transparent;
+  }
 
-    &::after {
-      height: 8px;
-      width: 8px;
-      right: -25px;
-      top: 15px;
-      border-color: $header-color;
-      border-bottom: 2px solid $header-color;
-      border-right: 2px solid $header-color;
-    }
+  &::after {
+    height: 8px;
+    width: 8px;
+    right: -25px;
+    top: 15px;
+    border-color: $header-color;
+    border-bottom: 2px solid $header-color;
+    border-right: 2px solid $header-color;
+  }
 
   .list {
     width: initial;
@@ -252,34 +261,40 @@ br {
     max-height: 50vh;
     overflow-x: auto;
     right: -50px;
-    &::-webkit-scrollbar{
+
+    &::-webkit-scrollbar {
       width: 2px;
       opacity: 1;
       display: block;
     }
+
     &::-webkit-scrollbar-button,
-    &::-webkit-scrollbar-thumb{
+    &::-webkit-scrollbar-thumb {
       background: $header-color;
     }
-}
-.option {
-  background-color: transparent;
-  font-size: 16px;
-  line-height: 150%;
-  padding: 4px 5px;
-  min-height: initial;
-  font-weight: 500;
-  &:hover,
-  &:focus,
-  &.selected.focus {
+  }
+
+  .option {
     background-color: transparent;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 4px 5px;
+    min-height: initial;
+    font-weight: 500;
+
+    &:hover,
+    &:focus,
+    &.selected.focus {
+      background-color: transparent;
+    }
+  }
+
+  .current {
+    font-weight: 500;
+    color: $header-color;
   }
 }
-.current{
-  font-weight: 500;
-  color: $header-color;
-}
-}
+
 //>>>>> Nice Select Css End <<<<<//
 
 
@@ -338,50 +353,51 @@ br {
 
 .page-nav-wrap {
   ul {
-      li {
-          display: inline-block;
+    li {
+      display: inline-block;
 
-          .page-numbers {
-              &.current {
-                  background-color: $theme-color;
-                  color: $white;
-              }
+      .page-numbers {
+        &.current {
+          background-color: $theme-color;
+          color: $white;
+        }
 
-              display: inline-block;
-              width:50px;
-              height:50px;
-              line-height:50px;           
-              background: transparent;
-              font-weight: 600;
-              transition: all 0.3s ease-in-out;
-              margin: 0 2px;
-              border: 1px solid $border-color;
-              color: $text-color;
-              border-radius: 50%;
+        display: inline-block;
+        width:50px;
+        height:50px;
+        line-height:50px;
+        background: transparent;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+        margin: 0 2px;
+        border: 1px solid $border-color;
+        color: $text-color;
+        border-radius: 50%;
 
-              @media (max-width: 767px) {
-                  margin-top: 10px;
-                  width: 50px;
-                  height: 50px;
-                  line-height: 50px;
-                  font-size: 14px;
-              }
+        @media (max-width: 767px) {
+          margin-top: 10px;
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+          font-size: 14px;
+        }
 
-              i {
-                  margin-top: 2px;
-              }
-              &:hover {
-                  background-color: $theme-color;
-                  color: $white;
-                  border: 1px solid transparent;
-              }
-          }
+        i {
+          margin-top: 2px;
+        }
+
+        &:hover {
+          background-color: $theme-color;
+          color: $white;
+          border: 1px solid transparent;
+        }
       }
+    }
   }
 }
 
 .box-color-1 {
-    background-color: rgba(248, 184, 31, 0.15);
+  background-color: rgba(248, 184, 31, 0.15);
 }
 
 .box-color-2 {
@@ -397,7 +413,7 @@ br {
 }
 
 .border-none {
-    border: none !important;
+  border: none !important;
 }
 
 .pt-40 {
@@ -425,5 +441,5 @@ br {
 }
 
 .fz-40 {
-    font-size: 40px;
+  font-size: 40px;
 }

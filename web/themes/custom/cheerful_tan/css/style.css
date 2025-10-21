@@ -4,8 +4,8 @@
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
 :root,
 [data-bs-theme=light] {
@@ -13018,7 +13018,7 @@ h6,
 .h6,
 .form-wrapper.accordion .accordion-item h2,
 .form-wrapper.accordion .accordion-item .h2 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin: 0px;
   padding: 0;
   color: var(--header);
@@ -13201,7 +13201,7 @@ span {
 .about-wrapper .about-content .about-list ul li {
   font-size: 18px;
   font-weight: 600;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--header);
   background-color: var(--white);
   box-shadow: var(--box-shadow);
@@ -13275,7 +13275,7 @@ span {
   font-size: 14px;
   font-weight: 600;
   color: var(--header);
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-bottom: 5px;
 }
 
@@ -13723,7 +13723,7 @@ span {
   font-size: 18px;
   font-weight: 600;
   color: var(--header);
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .about-wrapper-3 .about-content .list-items li:not(:last-child) {
   margin-bottom: 10px;
@@ -14088,7 +14088,8 @@ span {
   margin-bottom: 20px;
   display: inline-block;
 }
-.contact-form-items .form-clt input, .contact-form-items .form-clt textarea {
+.contact-form-items .form-clt input,
+.contact-form-items .form-clt textarea {
   width: 100%;
   outline: none;
   border: none;
@@ -14098,16 +14099,19 @@ span {
   padding: 18px 20px;
 }
 @media (max-width: 767px) {
-  .contact-form-items .form-clt input, .contact-form-items .form-clt textarea {
+  .contact-form-items .form-clt input,
+  .contact-form-items .form-clt textarea {
     padding: 14px 20px;
   }
 }
 @media (max-width: 575px) {
-  .contact-form-items .form-clt input, .contact-form-items .form-clt textarea {
+  .contact-form-items .form-clt input,
+  .contact-form-items .form-clt textarea {
     padding: 12px 18px;
   }
 }
-.contact-form-items .form-clt input::placeholder, .contact-form-items .form-clt textarea::placeholder {
+.contact-form-items .form-clt input::placeholder,
+.contact-form-items .form-clt textarea::placeholder {
   color: rgba(255, 255, 255, 0.7019607843);
 }
 .contact-form-items .form-clt textarea {
@@ -14189,7 +14193,8 @@ span {
 .contact-wrapper .contact-content .contact-form-items .form-clt span {
   text-transform: capitalize;
 }
-.contact-wrapper .contact-content .contact-form-items .form-clt input::placeholder, .contact-wrapper .contact-content .contact-form-items .form-clt textarea::placeholder {
+.contact-wrapper .contact-content .contact-form-items .form-clt input::placeholder,
+.contact-wrapper .contact-content .contact-form-items .form-clt textarea::placeholder {
   color: var(--white);
 }
 .contact-wrapper .contact-content .contact-form-items .theme-btn {
@@ -14382,13 +14387,15 @@ span {
   font-weight: 600;
   text-transform: capitalize;
 }
-.contact-wrapper-2 .contact-content .contact-form-items .form-clt input, .contact-wrapper-2 .contact-content .contact-form-items .form-clt textarea {
+.contact-wrapper-2 .contact-content .contact-form-items .form-clt input,
+.contact-wrapper-2 .contact-content .contact-form-items .form-clt textarea {
   border: 1px solid var(--border);
   color: var(--text);
   padding: 18px 20px;
   border-radius: 5px;
 }
-.contact-wrapper-2 .contact-content .contact-form-items .form-clt input::placeholder, .contact-wrapper-2 .contact-content .contact-form-items .form-clt textarea::placeholder {
+.contact-wrapper-2 .contact-content .contact-form-items .form-clt input::placeholder,
+.contact-wrapper-2 .contact-content .contact-form-items .form-clt textarea::placeholder {
   color: var(--text);
 }
 .contact-wrapper-2 .contact-content .contact-form-items .form-clt textarea {
@@ -19150,7 +19157,8 @@ span {
   display: inline-block;
   margin-bottom: 10px;
 }
-.news-details-area .blog-post-details .comment-form-wrap .form-clt input, .news-details-area .blog-post-details .comment-form-wrap .form-clt textarea {
+.news-details-area .blog-post-details .comment-form-wrap .form-clt input,
+.news-details-area .blog-post-details .comment-form-wrap .form-clt textarea {
   width: 100%;
   outline: none;
   border: none;
@@ -19161,7 +19169,8 @@ span {
   border-radius: 8px;
   color: var(--text);
 }
-.news-details-area .blog-post-details .comment-form-wrap .form-clt input::placeholder, .news-details-area .blog-post-details .comment-form-wrap .form-clt textarea::placeholder {
+.news-details-area .blog-post-details .comment-form-wrap .form-clt input::placeholder,
+.news-details-area .blog-post-details .comment-form-wrap .form-clt textarea::placeholder {
   color: var(--text);
 }
 .news-details-area .blog-post-details .comment-form-wrap .form-clt textarea {
@@ -19200,7 +19209,7 @@ span {
   }
 }
 .preloader .animation-preloader .txt-loading {
-  font: bold 5em "Quicksand", sans-serif, "Source Sans 3", sans-serif;
+  font: bold 5em "Nunito", sans-serif, "Source Sans 3", sans-serif;
   text-align: center;
   user-select: none;
 }
@@ -19240,7 +19249,7 @@ span {
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
   position: absolute;
   top: -3px;
   transform: rotateY(-90deg);
@@ -19670,7 +19679,7 @@ input.main-search-input::placeholder {
 .program-box-items .program-content span {
   color: var(--white);
   font-weight: 600;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .program-box-items .program-content p {
   color: var(--white);
@@ -19828,7 +19837,7 @@ input.main-search-input::placeholder {
 .program-box-items-2 .content span {
   color: var(--white);
   font-weight: 600;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .program-box-items-2 .content p {
   color: var(--white);
@@ -20025,7 +20034,7 @@ input.main-search-input::placeholder {
 .clases-items .clases-content .clases-schedule li {
   font-weight: 600;
   color: var(--header);
-  font-weight: "Quicksand", sans-serif;
+  font-weight: "Nunito", sans-serif;
 }
 .clases-items .clases-content .clases-schedule li span {
   font-family: "Source Sans 3", sans-serif;
@@ -20449,7 +20458,7 @@ input.main-search-input::placeholder {
   font-size: 14px;
   font-weight: 600;
   color: var(--header);
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-bottom: 5px;
 }
 .service-wrapper .service-right .icon-items {

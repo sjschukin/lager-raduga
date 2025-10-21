@@ -26,7 +26,8 @@
         "drupal/pathauto": "^1.13",
         "drupal/token_block": "^2.0",
         "drupal/views_bootstrap": "^5.5@RC",
-        "drush/drush": "^13.6"
+        "drush/drush": "^13.6",
+        "fortawesome/font-awesome": "^6.7"
     },
     "conflict": {
         "drupal/drupal": "*"

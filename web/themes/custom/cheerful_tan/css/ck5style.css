@@ -12015,8 +12015,8 @@ a > .ck-content code {
   /* --------------------------------------------
       Template Default Fonts & Fonts Styles
    ---------------------------------------------- */
-  @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300..700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
 }
 .ck-content body {
@@ -12060,7 +12060,7 @@ a > .ck-content code {
 .ck-content .h6,
 .ck-content .form-wrapper.accordion .accordion-item h2,
 .ck-content .form-wrapper.accordion .accordion-item .h2 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin: 0px;
   padding: 0;
   color: var(--header);
@@ -12232,7 +12232,7 @@ a > .ck-content code {
 .ck-content .about-wrapper .about-content .about-list ul li {
   font-size: 18px;
   font-weight: 600;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--header);
   background-color: var(--white);
   box-shadow: var(--box-shadow);
@@ -12306,7 +12306,7 @@ a > .ck-content code {
   font-size: 14px;
   font-weight: 600;
   color: var(--header);
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-bottom: 5px;
 }
 .ck-content .about-activities-section {
@@ -12748,7 +12748,7 @@ a > .ck-content code {
   font-size: 18px;
   font-weight: 600;
   color: var(--header);
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .ck-content .about-wrapper-3 .about-content .list-items li:not(:last-child) {
   margin-bottom: 10px;
@@ -13108,7 +13108,8 @@ a > .ck-content code {
   margin-bottom: 20px;
   display: inline-block;
 }
-.ck-content .contact-form-items .form-clt input, .ck-content .contact-form-items .form-clt textarea {
+.ck-content .contact-form-items .form-clt input,
+.ck-content .contact-form-items .form-clt textarea {
   width: 100%;
   outline: none;
   border: none;
@@ -13118,16 +13119,19 @@ a > .ck-content code {
   padding: 18px 20px;
 }
 @media (max-width: 767px) {
-  .ck-content .contact-form-items .form-clt input, .ck-content .contact-form-items .form-clt textarea {
+  .ck-content .contact-form-items .form-clt input,
+  .ck-content .contact-form-items .form-clt textarea {
     padding: 14px 20px;
   }
 }
 @media (max-width: 575px) {
-  .ck-content .contact-form-items .form-clt input, .ck-content .contact-form-items .form-clt textarea {
+  .ck-content .contact-form-items .form-clt input,
+  .ck-content .contact-form-items .form-clt textarea {
     padding: 12px 18px;
   }
 }
-.ck-content .contact-form-items .form-clt input::placeholder, .ck-content .contact-form-items .form-clt textarea::placeholder {
+.ck-content .contact-form-items .form-clt input::placeholder,
+.ck-content .contact-form-items .form-clt textarea::placeholder {
   color: rgba(255, 255, 255, 0.7019607843);
 }
 .ck-content .contact-form-items .form-clt textarea {
@@ -13208,7 +13212,8 @@ a > .ck-content code {
 .ck-content .contact-wrapper .contact-content .contact-form-items .form-clt span {
   text-transform: capitalize;
 }
-.ck-content .contact-wrapper .contact-content .contact-form-items .form-clt input::placeholder, .ck-content .contact-wrapper .contact-content .contact-form-items .form-clt textarea::placeholder {
+.ck-content .contact-wrapper .contact-content .contact-form-items .form-clt input::placeholder,
+.ck-content .contact-wrapper .contact-content .contact-form-items .form-clt textarea::placeholder {
   color: var(--white);
 }
 .ck-content .contact-wrapper .contact-content .contact-form-items .theme-btn {
@@ -13398,13 +13403,15 @@ a > .ck-content code {
   font-weight: 600;
   text-transform: capitalize;
 }
-.ck-content .contact-wrapper-2 .contact-content .contact-form-items .form-clt input, .ck-content .contact-wrapper-2 .contact-content .contact-form-items .form-clt textarea {
+.ck-content .contact-wrapper-2 .contact-content .contact-form-items .form-clt input,
+.ck-content .contact-wrapper-2 .contact-content .contact-form-items .form-clt textarea {
   border: 1px solid var(--border);
   color: var(--text);
   padding: 18px 20px;
   border-radius: 5px;
 }
-.ck-content .contact-wrapper-2 .contact-content .contact-form-items .form-clt input::placeholder, .ck-content .contact-wrapper-2 .contact-content .contact-form-items .form-clt textarea::placeholder {
+.ck-content .contact-wrapper-2 .contact-content .contact-form-items .form-clt input::placeholder,
+.ck-content .contact-wrapper-2 .contact-content .contact-form-items .form-clt textarea::placeholder {
   color: var(--text);
 }
 .ck-content .contact-wrapper-2 .contact-content .contact-form-items .form-clt textarea {
@@ -18053,7 +18060,8 @@ a > .ck-content code {
   display: inline-block;
   margin-bottom: 10px;
 }
-.ck-content .news-details-area .blog-post-details .comment-form-wrap .form-clt input, .ck-content .news-details-area .blog-post-details .comment-form-wrap .form-clt textarea {
+.ck-content .news-details-area .blog-post-details .comment-form-wrap .form-clt input,
+.ck-content .news-details-area .blog-post-details .comment-form-wrap .form-clt textarea {
   width: 100%;
   outline: none;
   border: none;
@@ -18064,7 +18072,8 @@ a > .ck-content code {
   border-radius: 8px;
   color: var(--text);
 }
-.ck-content .news-details-area .blog-post-details .comment-form-wrap .form-clt input::placeholder, .ck-content .news-details-area .blog-post-details .comment-form-wrap .form-clt textarea::placeholder {
+.ck-content .news-details-area .blog-post-details .comment-form-wrap .form-clt input::placeholder,
+.ck-content .news-details-area .blog-post-details .comment-form-wrap .form-clt textarea::placeholder {
   color: var(--text);
 }
 .ck-content .news-details-area .blog-post-details .comment-form-wrap .form-clt textarea {
@@ -18102,7 +18111,7 @@ a > .ck-content code {
   }
 }
 .ck-content .preloader .animation-preloader .txt-loading {
-  font: bold 5em "Quicksand", sans-serif, "Source Sans 3", sans-serif;
+  font: bold 5em "Nunito", sans-serif, "Source Sans 3", sans-serif;
   text-align: center;
   user-select: none;
 }
@@ -18142,7 +18151,7 @@ a > .ck-content code {
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
   position: absolute;
   top: -3px;
   transform: rotateY(-90deg);
@@ -18558,7 +18567,7 @@ a > .ck-content code {
 .ck-content .program-box-items .program-content span {
   color: var(--white);
   font-weight: 600;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .ck-content .program-box-items .program-content p {
   color: var(--white);
@@ -18714,7 +18723,7 @@ a > .ck-content code {
 .ck-content .program-box-items-2 .content span {
   color: var(--white);
   font-weight: 600;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .ck-content .program-box-items-2 .content p {
   color: var(--white);
@@ -18908,7 +18917,7 @@ a > .ck-content code {
 .ck-content .clases-items .clases-content .clases-schedule li {
   font-weight: 600;
   color: var(--header);
-  font-weight: "Quicksand", sans-serif;
+  font-weight: "Nunito", sans-serif;
 }
 .ck-content .clases-items .clases-content .clases-schedule li span {
   font-family: "Source Sans 3", sans-serif;
@@ -19323,7 +19332,7 @@ a > .ck-content code {
   font-size: 14px;
   font-weight: 600;
   color: var(--header);
-  font-family: "Quicksand", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-bottom: 5px;
 }
 .ck-content .service-wrapper .service-right .icon-items {
