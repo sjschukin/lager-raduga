@@ -41,7 +41,7 @@
       .post-author-items {
         margin-top: 20px;
         @include flex;
-        justify-content: space-between;
+        justify-content: flex-end;
 
         @include breakpoint (max-sm) {
           gap: 20px;
