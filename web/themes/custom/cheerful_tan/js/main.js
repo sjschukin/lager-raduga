@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  //>> Team Slider Start <<//
+  // Team Slider Start
   const teamSlider = new Swiper(".team-slider", {
     spaceBetween: 30,
     speed: 1300,
@@ -37,7 +37,7 @@
     },
   });
 
-  //>> Testimonial Slider Start <<//
+  // Testimonial Slider Start
   const testimonialSlider = new Swiper(".testimonial-slider", {
     spaceBetween: 30,
     speed: 1500,
@@ -66,7 +66,7 @@
     },
   });
 
-  //>> Last Photos Slider Start <<//
+  // Last Photos Slider Start
   const instagramBannerSlider = new Swiper(".last-photos-banner-slider", {
     spaceBetween: 30,
     speed: 1500,
@@ -103,5 +103,8 @@
       },
     },
   });
+
+  // AOS Animation Start
+  AOS.init();
 
 })();

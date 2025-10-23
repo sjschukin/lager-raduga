@@ -7,9 +7,16 @@ global-styling:
     js/main.js: {}
   dependencies:
     - cheerful_tan/swiper
+    - cheerful_tan/aos
 swiper:
   css:
     theme:
       libraries/swiper/swiper-bundle.min.css: {}
   js:
     libraries/swiper/swiper-bundle.min.js: {}
+aos:
+  css:
+    theme:
+      libraries/aos/aos.css: {}
+  js:
+    libraries/aos/aos.js: {}

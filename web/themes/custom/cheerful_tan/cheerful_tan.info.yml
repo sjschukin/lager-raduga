@@ -6,6 +6,7 @@ core_version_requirement: '^10.1 || ^11.0'
 libraries:
   - cheerful_tan/global-styling
   - cheerful_tan/swiper
+  - cheerful_tan/aos
 ckeditor_stylesheets:
   - css/style.css
 ckeditor5-stylesheets:
