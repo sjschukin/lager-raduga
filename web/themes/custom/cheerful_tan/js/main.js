@@ -107,4 +107,27 @@
   // AOS Animation Start
   AOS.init();
 
+  // Displaying Loader Start
+  function loader() {
+    window.addEventListener('load', function () {
+      const preloaders = document.querySelectorAll('.preloader');
+
+      preloaders.forEach(function (preloader) {
+        // Animate loader off screen
+        preloader.classList.add('loaded');
+
+        setTimeout(function () {
+          preloader.style.transition = 'opacity 0.3s ease-out';
+          preloader.style.opacity = '0';
+          preloader.addEventListener('transitionend', function hide() {
+            preloader.style.display = 'none';
+            preloader.removeEventListener('transitionend', hide);
+          });
+        }, 600);
+      });
+    });
+  }
+
+  loader();
+
 })();
