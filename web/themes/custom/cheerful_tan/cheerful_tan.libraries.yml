@@ -5,3 +5,11 @@ global-styling:
       css/fa.all.min.css: {}
   js:
     js/main.js: {}
+  dependencies:
+    - cheerful_tan/swiper
+swiper:
+  css:
+    theme:
+      libraries/swiper/swiper-bundle.min.css: {}
+  js:
+    libraries/swiper/swiper-bundle.min.js: {}

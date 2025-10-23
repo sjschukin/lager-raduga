@@ -169,7 +169,7 @@
         @include before;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url('../../assets/img/circle.png');
+        background-image: url('../images/circle.png');
         animation: cir36 10s linear infinite;
       }
     }
@@ -181,8 +181,9 @@
       }
 
       h3 {
-        font-size: 24px;
+        font-size: 18px;
         color: $header-color;
+        text-transform: none;
 
         a {
           color: $header-color;
@@ -240,7 +241,7 @@
             @include before;
             background-repeat: no-repeat;
             background-size: cover;
-            background-image: url('../../assets/img/circle-3.png');
+            background-image: url('../images/circle-3.png');
             animation: cir36 10s linear infinite;
           }
         }
