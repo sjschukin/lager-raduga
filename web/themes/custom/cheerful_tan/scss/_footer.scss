@@ -142,7 +142,11 @@
       }
     }
 
-    .list-area {
+    ul.list-area {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+
       li {
         @include transition;
         font-weight: 500;
@@ -464,6 +468,7 @@
 
 .footer-section {
   position: relative;
+  padding: 0;
 
   .footer-top-shape {
     position: absolute;

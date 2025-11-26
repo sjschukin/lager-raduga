@@ -12030,11 +12030,6 @@ a > .ck-content code {
   margin: 0;
   overflow-x: hidden;
 }
-.ck-content ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
 .ck-content button {
   border: none;
   background-color: transparent;
@@ -12124,7 +12119,7 @@ a > .ck-content code {
   transition: all 0.4s ease-in-out;
 }
 .ck-content p {
-  margin: 0px;
+  margin: 0 0 1rem 0;
   transition: all 0.4s ease-in-out;
 }
 .ck-content span {
@@ -12228,6 +12223,11 @@ a > .ck-content code {
   .ck-content .about-wrapper .about-content .about-list {
     flex-wrap: wrap;
   }
+}
+.ck-content .about-wrapper .about-content .about-list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 .ck-content .about-wrapper .about-content .about-list ul li {
   font-size: 18px;
@@ -14807,23 +14807,28 @@ a > .ck-content code {
 .ck-content .footer-widgets-wrapper .single-footer-widget .footer-content .contact-info li a {
   color: var(--text);
 }
-.ck-content .footer-widgets-wrapper .single-footer-widget .list-area li {
+.ck-content .footer-widgets-wrapper .single-footer-widget ul.list-area {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.ck-content .footer-widgets-wrapper .single-footer-widget ul.list-area li {
   transition: all 0.4s ease-in-out;
   font-weight: 500;
 }
-.ck-content .footer-widgets-wrapper .single-footer-widget .list-area li:not(:last-child) {
+.ck-content .footer-widgets-wrapper .single-footer-widget ul.list-area li:not(:last-child) {
   margin-bottom: 15px;
 }
-.ck-content .footer-widgets-wrapper .single-footer-widget .list-area li a {
+.ck-content .footer-widgets-wrapper .single-footer-widget ul.list-area li a {
   color: var(--header);
 }
-.ck-content .footer-widgets-wrapper .single-footer-widget .list-area li a i {
+.ck-content .footer-widgets-wrapper .single-footer-widget ul.list-area li a i {
   margin-right: 5px;
 }
-.ck-content .footer-widgets-wrapper .single-footer-widget .list-area li:hover {
+.ck-content .footer-widgets-wrapper .single-footer-widget ul.list-area li:hover {
   margin-left: 5px;
 }
-.ck-content .footer-widgets-wrapper .single-footer-widget .list-area li:hover a {
+.ck-content .footer-widgets-wrapper .single-footer-widget ul.list-area li:hover a {
   color: var(--theme);
 }
 .ck-content .footer-widgets-wrapper .single-footer-widget .recent-post-area .recent-post-items {
@@ -15061,6 +15066,7 @@ a > .ck-content code {
 }
 .ck-content .footer-section {
   position: relative;
+  padding: 0;
 }
 .ck-content .footer-section .footer-top-shape {
   position: absolute;
@@ -15173,6 +15179,11 @@ a > .ck-content code {
   justify-content: space-between;
   padding: 20px 0;
 }
+.ck-content .header-top-wrapper ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 .ck-content .header-top-wrapper .contact-list {
   display: flex;
   align-items: center;
@@ -15243,7 +15254,9 @@ a > .ck-content code {
   padding: 10px 0;
 }
 .ck-content .header-main .main-menu ul {
-  margin-bottom: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 .ck-content .header-main .main-menu ul li {
   position: relative;
@@ -17504,7 +17517,9 @@ a > .ck-content code {
   display: flex;
   align-items: center;
   gap: 25px;
-  margin-bottom: 15px;
+  padding: 0;
+  margin: 0 0 15px 0;
+  list-style: none;
 }
 .ck-content .news-wrapper .news-single-items .news-content h3, .ck-content .news-wrapper .news-single-items .news-content .h3 {
   margin-bottom: 10px;
@@ -17564,7 +17579,9 @@ a > .ck-content code {
   display: flex;
   align-items: center;
   gap: 25px;
-  margin-bottom: 10px;
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style: none;
 }
 .ck-content .news-wrapper .news-right-items .news-content h3 a:hover, .ck-content .news-wrapper .news-right-items .news-content .h3 a:hover {
   color: var(--theme);
@@ -17657,7 +17674,9 @@ a > .ck-content code {
   display: flex;
   align-items: center;
   gap: 30px;
-  margin-bottom: 15px;
+  padding: 0;
+  margin: 0 0 15px 0;
+  list-style: none;
 }
 .ck-content .news-card-items .news-content ul li i {
   color: var(--theme);
@@ -19942,6 +19961,7 @@ a > .ck-content code {
 }
 .ck-content .testimonial-items .testimonial-content p {
   color: var(--white);
+  margin: 0px;
 }
 .ck-content .testimonial-items .testimonial-content h6, .ck-content .testimonial-items .testimonial-content .h6, .ck-content .testimonial-items .testimonial-content .form-wrapper.accordion .accordion-item h2, .ck-content .form-wrapper.accordion .accordion-item .testimonial-items .testimonial-content h2, .ck-content .testimonial-items .testimonial-content .form-wrapper.accordion .accordion-item .h2, .ck-content .form-wrapper.accordion .accordion-item .testimonial-items .testimonial-content .h2 {
   color: var(--white);

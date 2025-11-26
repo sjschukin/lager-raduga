@@ -1,0 +1,45 @@
+{#
+/**
+ * @file
+ * Theme override for page titles.
+ *
+ * Available variables:
+ * - title_attributes: HTML attributes for the page title element.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title: The page title, for use in the actual content.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ */
+#}
+
+<!-- Breadcrumb Section Start -->
+<div class="breadcrumb-wrapper bg-cover" style="background-image: url('/themes/custom/cheerful_tan/images/breadcrumb.png');">
+  <div class="line-shape">
+    <img src="/themes/custom/cheerful_tan/images/breadcrumb-shape/line.png" alt="shape-img">
+  </div>
+  <div class="plane-shape float-bob-y">
+    <img src="/themes/custom/cheerful_tan/images/breadcrumb-shape/plane.png" alt="shape-img">
+  </div>
+  <div class="doll-shape float-bob-x">
+    <img src="/themes/custom/cheerful_tan/images/breadcrumb-shape/doll.png" alt="shape-img">
+  </div>
+  <div class="parasuit-shape float-bob-y">
+    <img src="/themes/custom/cheerful_tan/images/breadcrumb-shape/parasuit.png" alt="shape-img">
+  </div>
+  <div class="frame-shape">
+    <img src="/themes/custom/cheerful_tan/images/breadcrumb-shape/frame.png" alt="shape-img">
+  </div>
+  <div class="bee-shape float-bob-x">
+    <img src="/themes/custom/cheerful_tan/images/breadcrumb-shape/bee.png" alt="shape-img">
+  </div>
+  <div class="container">
+    <div class="page-heading">
+      {{ title_prefix }}
+      {% if title|render|striptags|trim %}
+        <h1 class="wow fadeInUp" data-wow-delay=".3s">{{ title }}</h1>
+      {% endif %}
+      {{ title_suffix }}
+    </div>
+  </div>
+</div>

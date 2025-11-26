@@ -50,6 +50,12 @@
   justify-content: space-between;
   padding: 20px 0;
 
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
   .contact-list {
     @include flex;
     gap: 40px;
@@ -143,7 +149,9 @@
 
   .main-menu {
     ul {
-      margin-bottom: 0;
+      padding: 0;
+      margin: 0;
+      list-style: none;
 
       li {
         position: relative;

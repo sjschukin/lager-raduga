@@ -1,0 +1,58 @@
+{#
+/**
+ * @file
+ * Theme override to display a block.
+ *
+ * Available variables:
+ * - plugin_id: The ID of the block implementation.
+ * - label: The configured label of the block if visible.
+ * - configuration: A list of the block's configuration values.
+ *   - label: The configured label for the block.
+ *   - label_display: The display settings for the label.
+ *   - provider: The module or other provider that provided this block plugin.
+ *   - Block plugin specific settings will also be stored here.
+ * - in_preview: Whether the plugin is being rendered in preview mode.
+ * - content: The content of this block.
+ * - attributes: array of HTML attributes populated by modules, intended to
+ *   be added to the main container tag of this template.
+ *   - id: A valid HTML ID and guaranteed unique.
+ * - title_attributes: Same as attributes, except applied to the main title
+ *   tag that appears in the template.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ *
+ * @see template_preprocess_block()
+ */
+#}
+<!-- Programs Section Start -->
+<section class="program-section section-padding section-bg-2 fix">
+  <div class="top-shape">
+    <img src="/themes/custom/cheerful_tan/images/section-top-shape.png" alt="shape-img">
+  </div>
+  <div class="bottom-shape">
+    <img src="/themes/custom/cheerful_tan/images/section-bottom-shape.png" alt="shape-img">
+  </div>
+  <div class="mask-shape float-bob-x">
+    <img src="/themes/custom/cheerful_tan/images/program/mask.png" alt="shape-img">
+  </div>
+  <div class="pencil-shape">
+    <img src="/themes/custom/cheerful_tan/images/program/pencil.png" alt="shape-img">
+  </div>
+  <div class="mask-shape-2">
+    <img src="/themes/custom/cheerful_tan/images/program/mask-2.png" alt="shape-img">
+  </div>
+  <div class="compass-shape">
+    <img src="/themes/custom/cheerful_tan/images/program/compass.png" alt="shape-img">
+  </div>
+  <div class="container">
+    <div class="section-title text-center mt-60">
+      <span data-aos="fade-up">Наши Программы</span>
+      <h2 data-aos="fade-up" data-aos-duration="300">Наши программы лагеря подстраиваются под<br>уровень каждого, независимо от возраста</h2>
+    </div>
+    <div class="row">
+      {{ content }}
+    </div>
+  </div>
+</section>
