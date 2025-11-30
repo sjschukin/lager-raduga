@@ -453,10 +453,13 @@
       }
     }
 
-    .clases-schedule {
+    ul.clases-schedule {
       margin-top: 30px;
       @include flex;
       justify-content: space-between;
+      padding: 0;
+      margin: 0;
+      list-style: none;
 
       @include breakpoint (max-sm) {
         margin-top: 15px;

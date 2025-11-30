@@ -18923,23 +18923,26 @@ a > .ck-content code {
     padding-bottom: 15px;
   }
 }
-.ck-content .clases-items .clases-content .clases-schedule {
+.ck-content .clases-items .clases-content ul.clases-schedule {
   margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 @media (max-width: 575px) {
-  .ck-content .clases-items .clases-content .clases-schedule {
+  .ck-content .clases-items .clases-content ul.clases-schedule {
     margin-top: 15px;
   }
 }
-.ck-content .clases-items .clases-content .clases-schedule li {
+.ck-content .clases-items .clases-content ul.clases-schedule li {
   font-weight: 600;
   color: var(--header);
   font-weight: "Nunito", sans-serif;
 }
-.ck-content .clases-items .clases-content .clases-schedule li span {
+.ck-content .clases-items .clases-content ul.clases-schedule li span {
   font-family: "Source Sans 3", sans-serif;
   color: var(--theme);
   font-weight: 14px;

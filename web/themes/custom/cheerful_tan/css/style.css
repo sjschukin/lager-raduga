@@ -20039,23 +20039,26 @@ input.main-search-input::placeholder {
     padding-bottom: 15px;
   }
 }
-.clases-items .clases-content .clases-schedule {
+.clases-items .clases-content ul.clases-schedule {
   margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 @media (max-width: 575px) {
-  .clases-items .clases-content .clases-schedule {
+  .clases-items .clases-content ul.clases-schedule {
     margin-top: 15px;
   }
 }
-.clases-items .clases-content .clases-schedule li {
+.clases-items .clases-content ul.clases-schedule li {
   font-weight: 600;
   color: var(--header);
   font-weight: "Nunito", sans-serif;
 }
-.clases-items .clases-content .clases-schedule li span {
+.clases-items .clases-content ul.clases-schedule li span {
   font-family: "Source Sans 3", sans-serif;
   color: var(--theme);
   font-weight: 14px;
