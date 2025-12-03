@@ -1,0 +1,30 @@
+uuid: 71500f87-4bea-4c87-85a2-97db74422aef
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:53d9bd6e-b719-4484-91dd-179b2f814629'
+  module:
+    - block_content
+    - system
+  theme:
+    - cheerful_tan
+id: about_section_block
+theme: cheerful_tan
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:53d9bd6e-b719-4484-91dd-179b2f814629'
+settings:
+  id: 'block_content:53d9bd6e-b719-4484-91dd-179b2f814629'
+  label: 'About Section'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

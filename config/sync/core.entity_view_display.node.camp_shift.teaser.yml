@@ -1,0 +1,47 @@
+uuid: cafd94f0-0ed5-4127-a3fd-f0649e84c0df
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.camp_shift.body
+    - field.field.node.camp_shift.field_image
+    - field.field.node.camp_shift.field_sort
+    - image.style.style_300x229
+    - node.type.camp_shift
+  module:
+    - image
+    - text
+    - user
+id: node.camp_shift.teaser
+targetEntityType: node
+bundle: camp_shift
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: style_300x229
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_sort: true
+  langcode: true

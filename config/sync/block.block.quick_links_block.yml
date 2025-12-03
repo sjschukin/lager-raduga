@@ -1,0 +1,25 @@
+uuid: 5b7d68e9-37e0-4e39-93d2-d56694693342
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.quick-links
+  module:
+    - system
+  theme:
+    - cheerful_tan
+id: quick_links_block
+theme: cheerful_tan
+region: footer_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:quick-links'
+settings:
+  id: 'system_menu_block:quick-links'
+  label: 'Быстрые ссылки'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,17 @@
+uuid: 0aa957cb-8246-4ea2-8af3-08fcd859eb58
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Отзыв
+type: testimonial
+description: 'Отзыв, который отображается на главной странице.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

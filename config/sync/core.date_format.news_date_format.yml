@@ -1,0 +1,8 @@
+uuid: ee60694c-4353-4b8c-864c-1009842b8209
+langcode: ru
+status: true
+dependencies: {  }
+id: news_date_format
+label: 'News Date Format'
+locked: false
+pattern: 'M d, Y'

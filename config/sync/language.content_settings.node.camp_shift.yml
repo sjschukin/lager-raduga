@@ -1,0 +1,11 @@
+uuid: 4c123923-a684-4f30-8450-53a89c414716
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.camp_shift
+id: node.camp_shift
+target_entity_type_id: node
+target_bundle: camp_shift
+default_langcode: site_default
+language_alterable: false

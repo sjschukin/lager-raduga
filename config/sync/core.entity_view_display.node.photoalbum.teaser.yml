@@ -1,0 +1,23 @@
+uuid: 2f8dcd6c-e3fc-4e87-8eb0-2c1bbc8aacbb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.photoalbum.field_photo_image
+    - node.type.photoalbum
+  module:
+    - user
+id: node.photoalbum.teaser
+targetEntityType: node
+bundle: photoalbum
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_photo_image: true
+  langcode: true

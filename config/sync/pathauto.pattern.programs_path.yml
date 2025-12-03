@@ -1,0 +1,22 @@
+uuid: eac265a8-6305-41ee-b30c-dc72948284d3
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: programs_path
+label: Программы
+type: 'canonical_entities:node'
+pattern: 'programs/[node:title]'
+selection_criteria:
+  7141a220-9354-4309-b444-37a9d5a4b26d:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 7141a220-9354-4309-b444-37a9d5a4b26d
+    context_mapping:
+      node: node
+    bundles:
+      program: program
+selection_logic: and
+weight: -5
+relationships: {  }

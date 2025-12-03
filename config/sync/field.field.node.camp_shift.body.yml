@@ -1,0 +1,26 @@
+uuid: 0b51cbf1-e255-4468-b7ca-652714f7ea14
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.basic_html
+    - node.type.camp_shift
+  module:
+    - text
+id: node.camp_shift.body
+field_name: body
+entity_type: node
+bundle: camp_shift
+label: Содержимое
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

@@ -1,0 +1,23 @@
+uuid: df355f81-87f2-4032-8c00-fae0d6c7baeb
+langcode: ru
+status: true
+dependencies:
+  module:
+    - token_block
+  theme:
+    - cheerful_tan
+id: copyright_section_block
+theme: cheerful_tan
+region: footer_bottom
+weight: 0
+provider: null
+plugin: token_block
+settings:
+  id: token_block
+  label: 'Copyright Section'
+  label_display: '0'
+  provider: token_block
+  body:
+    value: '<p class="wow fadeInLeft color-2" data-wow-delay=".3s">© [current-date:html_year] ОГБУ ДО «Детский оздоровительно-образовательный центр «Радуга»</p>'
+    format: full_html
+visibility: {  }

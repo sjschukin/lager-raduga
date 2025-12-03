@@ -1,0 +1,22 @@
+uuid: 91af782e-9368-4d18-a11f-6ec421e2aeb7
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: camp_shifts_path
+label: 'Лагерные смены'
+type: 'canonical_entities:node'
+pattern: 'camp-shifts/[node:nid]'
+selection_criteria:
+  13dacd12-7851-4432-b643-dfc7f2becab2:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 13dacd12-7851-4432-b643-dfc7f2becab2
+    context_mapping:
+      node: node
+    bundles:
+      camp_shift: camp_shift
+selection_logic: and
+weight: -5
+relationships: {  }

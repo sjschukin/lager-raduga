@@ -1,0 +1,22 @@
+uuid: 2b97f40c-2fc3-48d3-b4fc-dc35096a1e7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cheerful_tan
+_core:
+  default_config_hash: uu5FLko_6GVk0xYGVd-RuisaVG8D9hjbs2ulQzFZmvs
+id: cheerful_tan_breadcrumbs
+theme: cheerful_tan
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Строка навигации'
+  label_display: '0'
+  provider: system
+visibility: {  }

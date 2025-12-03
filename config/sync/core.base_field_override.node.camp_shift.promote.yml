@@ -1,0 +1,22 @@
+uuid: d6c8f18e-043e-4d06-81e4-748a22095a0f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.camp_shift
+id: node.camp_shift.promote
+field_name: promote
+entity_type: node
+bundle: camp_shift
+label: 'Помещено на главную страницу'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

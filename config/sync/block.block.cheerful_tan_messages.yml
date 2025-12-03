@@ -1,0 +1,22 @@
+uuid: f5e97ea2-d47d-4588-96bc-61b29f192836
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cheerful_tan
+_core:
+  default_config_hash: hmKpr8GfcYLo17_D_mIoILdWmRu_lmVCTIDWJCfMLKg
+id: cheerful_tan_messages
+theme: cheerful_tan
+region: content
+weight: -12
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Сообщения
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,17 @@
+uuid: 01463d0c-0b89-450e-be26-525f49f1d4b8
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Смена
+type: camp_shift
+description: 'Лагерная смена. Содержит даты смены и описание.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,21 @@
+uuid: ae82fed1-c601-41cd-bfcf-e94f7ebc3865
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_age_interval
+field_name: field_age_interval
+entity_type: node
+type: string
+settings:
+  max_length: 15
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

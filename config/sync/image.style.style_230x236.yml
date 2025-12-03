@@ -1,0 +1,15 @@
+uuid: 79de7b2c-de7b-46a4-839a-bf221d5d88ec
+langcode: ru
+status: true
+dependencies: {  }
+name: style_230x236
+label: 'Style 230x236'
+effects:
+  9cdcc41b-87dc-4c6b-ac58-ed7e9c6e9e08:
+    uuid: 9cdcc41b-87dc-4c6b-ac58-ed7e9c6e9e08
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 230
+      height: 236
+      anchor: center-center

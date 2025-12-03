@@ -1,0 +1,41 @@
+uuid: 54e900f1-bac4-419f-b542-8184371485d5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.program.field_age_interval
+    - field.field.node.program.field_description
+    - field.field.node.program.field_image
+    - field.field.node.program.field_short_description
+    - image.style.medium
+    - node.type.program
+  module:
+    - image
+    - user
+id: node.program.teaser
+targetEntityType: node
+bundle: program
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_age_interval: true
+  field_description: true
+  field_short_description: true
+  langcode: true

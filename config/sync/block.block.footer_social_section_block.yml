@@ -1,0 +1,25 @@
+uuid: 75862681-99da-4065-878e-d99448c45723
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b45791c4-57bb-4a3b-ad2c-1483496f829f'
+  module:
+    - block_content
+  theme:
+    - cheerful_tan
+id: footer_social_section_block
+theme: cheerful_tan
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:b45791c4-57bb-4a3b-ad2c-1483496f829f'
+settings:
+  id: 'block_content:b45791c4-57bb-4a3b-ad2c-1483496f829f'
+  label: 'Footer Social Section'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

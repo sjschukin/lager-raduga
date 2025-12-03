@@ -1,0 +1,10 @@
+uuid: d3486a95-5f16-4e1b-8691-625804afc8f4
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bqZsN31T2n0UjcbyCpOPi9D2iO0sAOHR7FnEs9qMvaA
+id: comment
+label: 'Комментарии по умолчанию'
+target_entity_type_id: node
+description: 'Позволить комментирование материалов'

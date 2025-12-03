@@ -1,0 +1,38 @@
+uuid: 55116b9e-da44-43be-84fc-7a42a4f5971f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - node.type.instructor
+  module:
+    - image
+id: node.instructor.field_image
+field_name: field_image
+entity_type: node
+bundle: instructor
+label: Изображение
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: 'images/instructors/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: 800x600
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

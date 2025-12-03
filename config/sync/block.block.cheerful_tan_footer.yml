@@ -1,0 +1,27 @@
+uuid: 094c90e1-2957-445c-a7d4-9644c8ae1807
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - cheerful_tan
+_core:
+  default_config_hash: jjKifWWLDwZ5MkVgvnI57zPDKrOyjvgw4r-5tBF3FLk
+id: cheerful_tan_footer
+theme: cheerful_tan
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Подвал
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

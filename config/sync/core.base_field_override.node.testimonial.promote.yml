@@ -1,0 +1,22 @@
+uuid: a4ca8372-2bb4-4bf3-979e-2575019bff47
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.testimonial
+id: node.testimonial.promote
+field_name: promote
+entity_type: node
+bundle: testimonial
+label: 'Помещено на главную страницу'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

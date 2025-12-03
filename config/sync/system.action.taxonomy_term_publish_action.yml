@@ -1,0 +1,13 @@
+uuid: 5f3e00a5-f2b6-49aa-a021-4f1ae88f1694
+langcode: ru
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: DoVt_VGgVLcDD4XmVbSFzr0K17SJy9imFiYusKkJBgY
+id: taxonomy_term_publish_action
+label: 'Опубликовать термин таксономии'
+type: taxonomy_term
+plugin: 'entity:publish_action:taxonomy_term'
+configuration: {  }

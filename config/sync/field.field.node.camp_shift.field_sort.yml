@@ -1,0 +1,25 @@
+uuid: b3a8ff7e-b725-4c1e-8e29-38ac368c1027
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sort
+    - node.type.camp_shift
+id: node.camp_shift.field_sort
+field_name: field_sort
+entity_type: node
+bundle: camp_shift
+label: Сортировка
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

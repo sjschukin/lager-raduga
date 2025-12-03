@@ -1,0 +1,20 @@
+uuid: f7671dd0-e8f8-42fa-8144-b33313d81744
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cheerful_tan
+_core:
+  default_config_hash: '-V2TKpajio98na56hCBcqGfRiiFU3ctQG2a-iN0kbuY'
+id: cheerful_tan_local_actions
+theme: cheerful_tan
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основные действия администратора'
+  label_display: '0'
+  provider: core
+visibility: {  }

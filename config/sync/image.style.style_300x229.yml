@@ -1,0 +1,15 @@
+uuid: fe07be40-c35d-457c-a3f1-c5b5b40cabb7
+langcode: ru
+status: true
+dependencies: {  }
+name: style_300x229
+label: 'Style 300x229'
+effects:
+  a0526db3-ce00-464e-bb65-9ba6ad98967c:
+    uuid: a0526db3-ce00-464e-bb65-9ba6ad98967c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 229
+      anchor: center-center

@@ -1,0 +1,8 @@
+uuid: 3266a7dd-92f8-4684-a9c5-4d64b812ae75
+langcode: ru
+status: true
+dependencies: {  }
+id: quick-links
+label: 'Быстрые ссылки'
+description: ''
+locked: false

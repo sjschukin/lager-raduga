@@ -1,0 +1,30 @@
+uuid: b15a9ac2-56c2-4f79-9cd8-0d754c5ba120
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:da3c046b-a341-4ea5-8f04-87ce9e661a67'
+  module:
+    - block_content
+    - system
+  theme:
+    - cheerful_tan
+id: about_activities_section
+theme: cheerful_tan
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:da3c046b-a341-4ea5-8f04-87ce9e661a67'
+settings:
+  id: 'block_content:da3c046b-a341-4ea5-8f04-87ce9e661a67'
+  label: 'About Activities Section'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

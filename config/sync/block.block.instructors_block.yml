@@ -1,0 +1,29 @@
+uuid: d34cec9b-0360-4a0f-b949-63c170e28f0e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.instructors
+  module:
+    - system
+    - views
+  theme:
+    - cheerful_tan
+id: instructors_block
+theme: cheerful_tan
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:instructors-instructors_block'
+settings:
+  id: 'views_block:instructors-instructors_block'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

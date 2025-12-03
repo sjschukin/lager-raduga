@@ -1,0 +1,15 @@
+uuid: 825c61b8-7686-433a-9667-fdd3cdaf9715
+langcode: ru
+status: true
+dependencies: {  }
+name: style_530x248
+label: 'Style 530x248'
+effects:
+  d4e7fb70-84f0-4f02-a265-cb457515bbd0:
+    uuid: d4e7fb70-84f0-4f02-a265-cb457515bbd0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 530
+      height: 248
+      anchor: center-center

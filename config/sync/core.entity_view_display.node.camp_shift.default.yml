@@ -1,0 +1,45 @@
+uuid: 00543970-ca60-411b-ba3e-8be51eb6df68
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.camp_shift.body
+    - field.field.node.camp_shift.field_image
+    - field.field.node.camp_shift.field_sort
+    - image.style.wide
+    - node.type.camp_shift
+  module:
+    - image
+    - text
+    - user
+id: node.camp_shift.default
+targetEntityType: node
+bundle: camp_shift
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_sort: true
+  langcode: true

@@ -1,0 +1,30 @@
+uuid: 36e408d0-a18e-4444-848b-8757361fc9a8
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ca268a5c-7d21-4621-be32-ef0cede356ab'
+  module:
+    - block_content
+    - system
+  theme:
+    - cheerful_tan
+id: footer_contact_info_section_block
+theme: cheerful_tan
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:ca268a5c-7d21-4621-be32-ef0cede356ab'
+settings:
+  id: 'block_content:ca268a5c-7d21-4621-be32-ef0cede356ab'
+  label: 'Footer Contact Info Section'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

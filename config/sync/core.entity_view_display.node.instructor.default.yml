@@ -1,0 +1,43 @@
+uuid: 67c4aab8-311e-4be5-8570-7a0dcd052743
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.instructor.field_image
+    - field.field.node.instructor.field_job_title
+    - image.style.style_270x320
+    - node.type.instructor
+  module:
+    - image
+    - user
+id: node.instructor.default
+targetEntityType: node
+bundle: instructor
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: style_270x320
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_job_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

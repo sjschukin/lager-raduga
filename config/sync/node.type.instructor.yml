@@ -1,0 +1,17 @@
+uuid: 20d6e3fc-d2e5-4d82-9fc8-6ea196f12365
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Инструктор
+type: instructor
+description: 'Сведения об инструкторе. Обязательно должно содержать ФИО и фотографию.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

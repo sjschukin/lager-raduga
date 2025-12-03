@@ -1,0 +1,26 @@
+uuid: a2a69316-c2cf-4eff-b8a0-21ebe08312c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cheerful_tan
+_core:
+  default_config_hash: JGsHRiT85aub1y0KuLLgPoXewdfXkqhMWFMhfyWX0to
+id: cheerful_tan_content
+theme: cheerful_tan
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Содержимое страницы'
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

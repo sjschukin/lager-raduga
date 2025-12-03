@@ -1,0 +1,29 @@
+uuid: cd20e1af-5b32-44dd-8901-5cf3ad05afa9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.programs
+  module:
+    - system
+    - views
+  theme:
+    - cheerful_tan
+id: programs_block
+theme: cheerful_tan
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:programs-programs_block'
+settings:
+  id: 'views_block:programs-programs_block'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

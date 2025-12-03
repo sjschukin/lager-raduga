@@ -1,0 +1,71 @@
+uuid: 52d12246-9e41-427b-a76e-f4188b43d546
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.news
+    - node.type.page
+    - node.type.program
+    - node.type.testimonial
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - contextual
+    - file
+    - node
+    - path
+    - system
+    - taxonomy
+    - toolbar
+_core:
+  default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
+id: content_editor
+label: 'Редактор контента'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'administer url aliases'
+  - 'create article content'
+  - 'create news content'
+  - 'create page content'
+  - 'create program content'
+  - 'create terms in tags'
+  - 'create testimonial content'
+  - 'create url aliases'
+  - 'delete any news content'
+  - 'delete any program content'
+  - 'delete any testimonial content'
+  - 'delete article revisions'
+  - 'delete news revisions'
+  - 'delete own article content'
+  - 'delete own files'
+  - 'delete own news content'
+  - 'delete own page content'
+  - 'delete own program content'
+  - 'delete own testimonial content'
+  - 'delete page revisions'
+  - 'delete testimonial revisions'
+  - 'edit any news content'
+  - 'edit any program content'
+  - 'edit any testimonial content'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own news content'
+  - 'edit own page content'
+  - 'edit own program content'
+  - 'edit own testimonial content'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'revert news revisions'
+  - 'revert testimonial revisions'
+  - 'view all revisions'
+  - 'view news revisions'
+  - 'view own unpublished content'
+  - 'view testimonial revisions'
+  - 'view the administration theme'

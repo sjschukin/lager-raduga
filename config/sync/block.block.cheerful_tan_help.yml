@@ -1,0 +1,22 @@
+uuid: 27872a78-ca94-46a2-83b6-48c367a5df24
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - cheerful_tan
+_core:
+  default_config_hash: poBQB98MJh1ku8gxzvfo0fup_rRDyLxCo7DtO3kCIPs
+id: cheerful_tan_help
+theme: cheerful_tan
+region: content
+weight: -9
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Справка
+  label_display: '0'
+  provider: help
+visibility: {  }

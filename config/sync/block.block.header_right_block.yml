@@ -1,0 +1,25 @@
+uuid: 77e9c51d-7c6b-4ab8-a754-364f6c62e1c8
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d8e1b131-b562-496d-a06a-01a75be6eb0f'
+  module:
+    - block_content
+  theme:
+    - cheerful_tan
+id: header_right_block
+theme: cheerful_tan
+region: header_right
+weight: 0
+provider: null
+plugin: 'block_content:d8e1b131-b562-496d-a06a-01a75be6eb0f'
+settings:
+  id: 'block_content:d8e1b131-b562-496d-a06a-01a75be6eb0f'
+  label: 'Header Right'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

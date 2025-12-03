@@ -1,0 +1,25 @@
+uuid: 537acf2c-7c16-4a0b-b02d-f16a327d8892
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cheerful_tan
+_core:
+  default_config_hash: MyWtGkU9rynmbnbm0oiksAy1teeTAret7A6rfTyajK4
+id: cheerful_tan_branding
+theme: cheerful_tan
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендинг сайта'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: a1459afc-07a0-455a-b92d-0015f0957df4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.testimonials
+  module:
+    - system
+    - views
+  theme:
+    - cheerful_tan
+id: testimonials_block
+theme: cheerful_tan
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:testimonials-testimonials_block'
+settings:
+  id: 'views_block:testimonials-testimonials_block'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

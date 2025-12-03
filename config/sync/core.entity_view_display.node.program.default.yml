@@ -1,0 +1,54 @@
+uuid: eac2f7d2-757f-452e-8f61-ee2e58100f33
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.program.field_age_interval
+    - field.field.node.program.field_description
+    - field.field.node.program.field_image
+    - field.field.node.program.field_short_description
+    - image.style.style_300x229
+    - node.type.program
+  module:
+    - image
+    - text
+    - user
+id: node.program.default
+targetEntityType: node
+bundle: program
+mode: default
+content:
+  field_age_interval:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: style_300x229
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_short_description: true
+  langcode: true

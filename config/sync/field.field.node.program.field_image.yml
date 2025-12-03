@@ -1,0 +1,38 @@
+uuid: 02256a5b-aebd-4393-bd9f-095e99a24bf8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - node.type.program
+  module:
+    - image
+id: node.program.field_image
+field_name: field_image
+entity_type: node
+bundle: program
+label: Изображение
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: 'images/programs/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: 800x600
+  min_resolution: 300x229
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

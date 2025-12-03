@@ -1,0 +1,26 @@
+uuid: 92917b12-3699-4f07-968e-68748a62ae01
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cheerful_tan
+_core:
+  default_config_hash: '-MDY_cbs1hodSixvoyjN16QNF_yni8GvrSNmX25BmaY'
+id: cheerful_tan_page_title
+theme: cheerful_tan
+region: content
+weight: -11
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок страницы'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

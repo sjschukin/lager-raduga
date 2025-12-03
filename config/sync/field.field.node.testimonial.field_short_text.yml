@@ -1,0 +1,19 @@
+uuid: cf9df2f6-f878-4d72-96b1-5e009d6666fc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_short_text
+    - node.type.testimonial
+id: node.testimonial.field_short_text
+field_name: field_short_text
+entity_type: node
+bundle: testimonial
+label: Текст
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

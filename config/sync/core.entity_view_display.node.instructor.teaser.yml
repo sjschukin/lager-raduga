@@ -1,0 +1,37 @@
+uuid: 50d86921-fa30-45f8-ae01-bffc1234a927
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.instructor.field_image
+    - field.field.node.instructor.field_job_title
+    - image.style.medium
+    - node.type.instructor
+  module:
+    - image
+    - user
+id: node.instructor.teaser
+targetEntityType: node
+bundle: instructor
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_job_title: true
+  langcode: true

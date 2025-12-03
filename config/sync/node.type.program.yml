@@ -1,0 +1,17 @@
+uuid: d79198f9-f072-4881-a086-4985d7c21058
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Программа
+type: program
+description: 'Программа лагеря.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

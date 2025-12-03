@@ -1,0 +1,51 @@
+uuid: 6cc8ec48-e677-490f-95ae-f616becf5646
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.testimonial.field_author
+    - field.field.node.testimonial.field_short_text
+    - node.type.testimonial
+id: node.testimonial.default
+targetEntityType: node
+bundle: testimonial
+mode: default
+content:
+  field_author:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_short_text:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

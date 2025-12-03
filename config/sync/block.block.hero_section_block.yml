@@ -1,0 +1,30 @@
+uuid: 107ff502-5e30-418c-886c-29fd78ce228b
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:322589c1-a416-43b9-8498-6a3372b9a310'
+  module:
+    - block_content
+    - system
+  theme:
+    - cheerful_tan
+id: hero_section_block
+theme: cheerful_tan
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:322589c1-a416-43b9-8498-6a3372b9a310'
+settings:
+  id: 'block_content:322589c1-a416-43b9-8498-6a3372b9a310'
+  label: 'Hero Section'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

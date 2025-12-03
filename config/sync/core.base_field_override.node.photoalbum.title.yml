@@ -1,0 +1,18 @@
+uuid: 280b95a9-5f03-4426-a3b8-da446b651ba2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.photoalbum
+id: node.photoalbum.title
+field_name: title
+entity_type: node
+bundle: photoalbum
+label: Наименование
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

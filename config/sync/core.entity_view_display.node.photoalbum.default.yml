@@ -1,0 +1,33 @@
+uuid: 129aab23-27bb-433a-82d3-1bbb492f4d45
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.photoalbum.field_photo_image
+    - node.type.photoalbum
+  module:
+    - image
+    - user
+id: node.photoalbum.default
+targetEntityType: node
+bundle: photoalbum
+mode: default
+content:
+  field_photo_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

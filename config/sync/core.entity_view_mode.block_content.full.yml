@@ -1,0 +1,13 @@
+uuid: 4c6adf6a-f86f-4f9f-b6da-785d3d6796b3
+langcode: ru
+status: false
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: Q7yUUYeRLByl-MCGveKKF_KhAtNICLCMJuKWfugCvso
+id: block_content.full
+label: Полный
+description: ''
+targetEntityType: block_content
+cache: true

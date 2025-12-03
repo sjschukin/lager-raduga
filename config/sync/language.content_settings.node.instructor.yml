@@ -1,0 +1,11 @@
+uuid: 95aacdc2-a683-47ef-a3d8-cb7b5f66b821
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.instructor
+id: node.instructor
+target_entity_type_id: node
+target_bundle: instructor
+default_langcode: site_default
+language_alterable: false
