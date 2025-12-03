@@ -1,0 +1,17 @@
+uuid: 61e3ddff-53cd-46db-85e4-ff36f42bcec5
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Документ
+type: document
+description: 'Документ содержит наименование и прикрепленный файл.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: true

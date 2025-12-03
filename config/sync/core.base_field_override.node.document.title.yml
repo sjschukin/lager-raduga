@@ -1,0 +1,18 @@
+uuid: 7987cdfb-7833-4634-82df-3301889e9ab3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.document
+id: node.document.title
+field_name: title
+entity_type: node
+bundle: document
+label: Наименование
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
