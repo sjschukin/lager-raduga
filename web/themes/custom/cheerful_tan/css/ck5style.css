@@ -12059,7 +12059,6 @@ a > .ck-content code {
   margin: 0px;
   padding: 0;
   color: var(--header);
-  text-transform: capitalize;
   transition: all 0.4s ease-in-out;
 }
 .ck-content h1, .ck-content .h1 {
