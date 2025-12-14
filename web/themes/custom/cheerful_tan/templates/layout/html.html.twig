@@ -58,7 +58,77 @@
     </style>
   </head>
   <body{{ attributes.addClass(body_classes) }}>
+
+    <!-- Search Area Start -->
+    <div class="search-wrap">
+      <div class="search-inner">
+        <i class="fa-regular fa-xmark search-close" id="search-close"></i>
+        <div class="search-cell">
+          <form method="get">
+            <div class="search-field-holder">
+              <input type="search" class="main-search-input" placeholder="Поиск...">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
     {{ page }}
+
+    <!-- Footer Section Start -->
+    <footer class="footer-section section-bg fix">
+      <div class="footer-top-shape">
+        <img src="/themes/custom/cheerful_tan/images/footer-top.png" alt="shape-img">
+      </div>
+      <div class="frame-shape">
+        <img src="/themes/custom/cheerful_tan/images/frame.png" alt="shape-img">
+      </div>
+      <div class="zebra-shape float-bob-y">
+        <img src="/themes/custom/cheerful_tan/images/about/zebra.png" alt="shape-img">
+      </div>
+      <div class="container">
+        {{ page.footer_top }}
+      </div>
+      <div class="footer-widgets-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="300">
+              <div class="single-footer-widget">
+                <div class="widget-head">
+                  <a href="/">
+                    <img src="/themes/custom/cheerful_tan/images/logo/logo.svg" alt="logo-img">
+                  </a>
+                </div>
+                <div class="footer-content">
+                  {{ page.footer_first }}
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 ps-lg-5" data-aos="fade-up" data-aos-duration="500">
+              <div class="single-footer-widget">
+                <div class="widget-head">
+                  <h3>Полезное</h3>
+                </div>
+                {{ page.footer_second }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="f-bottom-shape">
+          <img src="/themes/custom/cheerful_tan/images/footer-bottom.png" alt="shape-img">
+        </div>
+        <div class="container">
+          <div class="footer-wrapper d-flex align-items-center justify-content-between">
+            {{ page.footer_bottom }}
+          </div>
+        </div>
+        <a href="#" id="scrollUp" class="scroll-icon">
+          <i class="far fa-arrow-up"></i>
+        </a>
+      </div>
+    </footer>
     <js-bottom-placeholder token="{{ placeholder_token }}">
     <script>
       (function (w, d, s, o, f, js, fjs) {
