@@ -179,7 +179,7 @@
           }
 
           &:hover {
-            color: $theme-color !important;
+            color: $theme-color;
           }
 
         }
@@ -401,6 +401,41 @@
     cursor: pointer;
 
     font-size: 20px;
+  }
+}
+
+//>>>>> Offcanvas Menu Start <<<<<//
+
+#offcanvasNavigation {
+
+  .offcanvas-body {
+    ul {
+      list-style: none;
+      color: $header-color;
+
+      li {
+        display: block;
+        list-style: none;
+        color: $header-color;
+        background: $white;
+        margin: 0;
+        padding: 0;
+
+        a {
+          display: block;
+          font-size: 16px;
+          font-weight: 600;
+          color: $header-color;
+          padding: 0 25px;
+          padding-bottom: 11px;
+          padding-top: 11px;
+
+          &:hover {
+            color: $theme-color;
+          }
+        }
+      }
+    }
   }
 }
 
