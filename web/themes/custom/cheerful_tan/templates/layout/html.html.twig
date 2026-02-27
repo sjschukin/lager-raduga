@@ -120,54 +120,58 @@
     </footer>
     <js-bottom-placeholder token="{{ placeholder_token }}">
       <script>
-      (function (w, d, s, o, f, js, fjs) {
-        w[o] = w[o] || function () {
-          (w[o].q = w[o].q || []).push(arguments)
-        }
-        js = d.createElement(s), fjs = d.getElementsByTagName(s)[0]
-        js.id = o
-        js.src = f
-        js.async = 1
-        fjs.parentNode.insertBefore(js, fjs)
-      }(window, document, "script", "tlc", "https://widget.campdirector.ru/widget_camp_main.js"))
-      tlc("init", {
-        debug: false,
-        minimized: true,
-        serviceBaseUrl: "https://tlcamp-api.campdirector.ru",
-        campId: "0fcf75a9-2b38-4423-bae2-cce4a4890319",
-        styles: {
-            stileInString:
-                "  --color-text-header: #ffff;" +
-                "  --color-button-text: #ffff;" +
-                "  --color-accent: #F39F5F;" +
-                "  --color-bg-secondary: #F39F5F;" +
-                "  --color-button-fill: #F39F5F;" +
-                "  --color-loader: #F39F5F;" +
-                "  --color-inputs: #F39F5F;" +
-                "  --btn-cite-right: 55px;" +
-                "  --btn-cite-bottom: 55px;" +
-                "  --border-radius: 22px;" +
-                "  --font-family: 'Nunito', sans-serif;",
-        },
-        openingButtons: '.hero-button a, a.arrow-icon',
-        metrics: {
-          id: 105814901
-        },
-        changes: {
-          type: "reservation"
-        },
-        text: {
-          minimizedTitle: "Забронировать",
-        },
-        form: {
-          fields: {
-            parentPassport: true,
-            parentRegistration: true,
-            childDoc: true,
-            childRegistration: true,
+        (function (w, d, s, o, f, js, fjs) {
+          w[o] = w[o] || function () {
+            (w[o].q = w[o].q || []).push(arguments)
           }
-        },
-      })
-    </script>
+          js = d.createElement(s), fjs = d.getElementsByTagName(s)[0]
+          js.id = o
+          js.src = f
+          js.async = 1
+          fjs.parentNode.insertBefore(js, fjs)
+        }(window, document, "script", "tlc", "https://widget.campdirector.ru/widget_camp_main.js"))
+        tlc("init", {
+          debug: false,
+          minimized: true,
+          serviceBaseUrl: "https://tlcamp-api.campdirector.ru",
+          campId: "0fcf75a9-2b38-4423-bae2-cce4a4890319",
+          styles: {
+              stileInString:
+                  "  --color-text-header: #ffff;" +
+                  "  --color-button-text: #ffff;" +
+                  "  --color-accent: #F39F5F;" +
+                  "  --color-bg-secondary: #F39F5F;" +
+                  "  --color-button-fill: #F39F5F;" +
+                  "  --color-loader: #F39F5F;" +
+                  "  --color-inputs: #F39F5F;" +
+                  "  --btn-cite-right: 80px;" +
+                  "  --btn-cite-bottom: 60px;" +
+                  "  --border-radius: 22px;" +
+                  "  --font-family: 'Nunito', sans-serif;",
+          },
+          openingButtons: '.hero-button a, a.arrow-icon',
+          metrics: {
+            id: 105814901
+          },
+          changes: {
+            type: "reservation"
+          },
+          text: {
+            minimizedTitle: "Забронировать",
+          },
+          form: {
+            fields: {
+              parentPassport: true,
+              parentRegistration: true,
+              childDoc: true,
+              childRegistration: true,
+            }
+          },
+          onlineChat: {
+            turnOn: true,
+            onlineChatId: '4859'
+          }
+        })
+      </script>
   </body>
 </html>
