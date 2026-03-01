@@ -1,0 +1,23 @@
+taxonomies:
+  personnel_types:
+    -
+      vid: personnel_types
+      tid: '1'
+      langcode: ru
+      name: Руководство
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 69386566-bb36-4255-8ac5-a8c8a6b343e6
+    -
+      vid: personnel_types
+      tid: '2'
+      langcode: ru
+      name: Инструктор
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '0'
+      uuid: bb46d6bc-b5c0-452d-8b07-15a691121731
+  tags: {  }
