@@ -677,10 +677,25 @@ display:
         type: none
         options:
           offset: 0
+      sorts:
+        field_sort_value:
+          id: field_sort_value
+          table: node__field_sort
+          field: field_sort_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: standard
+          order: ASC
+          expose:
+            label: ''
+            field_identifier: ''
+          exposed: false
       defaults:
         css_class: true
         pager: false
         fields: false
+        sorts: false
       display_description: ''
       display_extenders: {  }
       path: about/instructors
@@ -694,7 +709,7 @@ display:
         parent: 'menu_link_content:c579f246-e2cf-433c-806d-cf225ed1aad3'
         context: '0'
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -966,6 +981,20 @@ display:
         type: none
         options:
           offset: 0
+      sorts:
+        field_sort_value:
+          id: field_sort_value
+          table: node__field_sort
+          field: field_sort_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: standard
+          order: ASC
+          expose:
+            label: ''
+            field_identifier: ''
+          exposed: false
       filters:
         status:
           id: status
@@ -1074,6 +1103,7 @@ display:
         css_class: true
         pager: false
         fields: false
+        sorts: false
         filters: false
         filter_groups: false
       display_description: ''
@@ -1089,7 +1119,7 @@ display:
         parent: 'menu_link_content:c579f246-e2cf-433c-806d-cf225ed1aad3'
         context: '0'
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
