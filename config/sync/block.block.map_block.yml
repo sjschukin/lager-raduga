@@ -1,23 +1,23 @@
-uuid: 71500f87-4bea-4c87-85a2-97db74422aef
+uuid: 13989ee1-6139-4cd0-aa11-bc306fd95ba2
 langcode: ru
 status: true
 dependencies:
   content:
-    - 'block_content:basic:53d9bd6e-b719-4484-91dd-179b2f814629'
+    - 'block_content:basic:4f9d4f6f-1cb1-4fcf-8bb1-33b62659a4f7'
   module:
     - block_content
     - system
   theme:
     - cheerful_tan
-id: about_section_block
+id: map_block
 theme: cheerful_tan
 region: content
-weight: -6
+weight: 1
 provider: null
-plugin: 'block_content:53d9bd6e-b719-4484-91dd-179b2f814629'
+plugin: 'block_content:4f9d4f6f-1cb1-4fcf-8bb1-33b62659a4f7'
 settings:
-  id: 'block_content:53d9bd6e-b719-4484-91dd-179b2f814629'
-  label: 'About Section'
+  id: 'block_content:4f9d4f6f-1cb1-4fcf-8bb1-33b62659a4f7'
+  label: 'Map Section'
   label_display: '0'
   provider: block_content
   view_mode: full
@@ -25,4 +25,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '<front>'
+    pages: /about/contacts

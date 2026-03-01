@@ -1,9 +1,9 @@
-uuid: d34cec9b-0360-4a0f-b949-63c170e28f0e
+uuid: 5184bcec-2710-48fe-9de9-7db4ae837242
 langcode: ru
 status: true
 dependencies:
   config:
-    - views.view.instructors
+    - views.view.staffing
   module:
     - system
     - views
@@ -12,11 +12,11 @@ dependencies:
 id: instructors_block
 theme: cheerful_tan
 region: content
-weight: -1
+weight: -2
 provider: null
-plugin: 'views_block:instructors-instructors_block'
+plugin: 'views_block:staffing-instructors_block'
 settings:
-  id: 'views_block:instructors-instructors_block'
+  id: 'views_block:staffing-instructors_block'
   label: ''
   label_display: '0'
   provider: views

@@ -1,0 +1,25 @@
+uuid: d5454cf5-2edf-468a-95cd-a283f4416fe7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sort
+    - node.type.staff
+id: node.staff.field_sort
+field_name: field_sort
+entity_type: node
+bundle: staff
+label: Сортировка
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

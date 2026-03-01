@@ -1,0 +1,17 @@
+uuid: 4ca56fd4-712f-4c1a-850a-346a6a7dfafa
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Персонал
+type: staff
+description: 'Сотрудник, работающий в организации.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -12,7 +12,7 @@ dependencies:
 id: news_block
 theme: cheerful_tan
 region: content
-weight: -3
+weight: -4
 provider: null
 plugin: 'views_block:news-news_block'
 settings:

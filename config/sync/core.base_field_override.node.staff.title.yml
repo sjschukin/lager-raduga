@@ -1,0 +1,18 @@
+uuid: 90712bdc-8aa1-48e0-8251-8beca6567346
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.staff
+id: node.staff.title
+field_name: title
+entity_type: node
+bundle: staff
+label: Ф.И.О.
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -36,8 +36,10 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  recreate_block_content: 0
   search: 0
   shortcut: 0
+  structure_sync: 0
   system: 0
   taxonomy: 0
   text: 0

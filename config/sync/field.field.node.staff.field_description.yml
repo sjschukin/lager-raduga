@@ -1,0 +1,24 @@
+uuid: dbc3ca9f-e282-4fc4-8bb4-5b8d44d9516f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - filter.format.basic_html
+    - node.type.staff
+  module:
+    - text
+id: node.staff.field_description
+field_name: field_description
+entity_type: node
+bundle: staff
+label: 'Дополнительные сведения'
+description: 'Сведения об образовании и квалификации.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

@@ -1,0 +1,9 @@
+uuid: e7c012ac-c267-48e2-9338-952e6a017660
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Типы персонала'
+vid: personnel_types
+description: null
+weight: 0
+new_revision: false

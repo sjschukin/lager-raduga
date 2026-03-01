@@ -1,5 +1,5 @@
 uuid: f5e97ea2-d47d-4588-96bc-61b29f192836
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -11,7 +11,7 @@ _core:
 id: cheerful_tan_messages
 theme: cheerful_tan
 region: content
-weight: -12
+weight: -13
 provider: null
 plugin: system_messages_block
 settings:

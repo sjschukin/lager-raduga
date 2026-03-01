@@ -12,7 +12,7 @@ dependencies:
 id: photos_block
 theme: cheerful_tan
 region: content
-weight: 1
+weight: 0
 provider: null
 plugin: 'views_block:photos-photos_block'
 settings:

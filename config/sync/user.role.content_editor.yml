@@ -7,6 +7,7 @@ dependencies:
     - node.type.news
     - node.type.page
     - node.type.program
+    - node.type.staff
     - node.type.testimonial
     - taxonomy.vocabulary.tags
   module:
@@ -35,11 +36,13 @@ permissions:
   - 'create news content'
   - 'create page content'
   - 'create program content'
+  - 'create staff content'
   - 'create terms in tags'
   - 'create testimonial content'
   - 'create url aliases'
   - 'delete any news content'
   - 'delete any program content'
+  - 'delete any staff content'
   - 'delete any testimonial content'
   - 'delete article revisions'
   - 'delete news revisions'
@@ -48,17 +51,20 @@ permissions:
   - 'delete own news content'
   - 'delete own page content'
   - 'delete own program content'
+  - 'delete own staff content'
   - 'delete own testimonial content'
   - 'delete page revisions'
   - 'delete testimonial revisions'
   - 'edit any news content'
   - 'edit any program content'
+  - 'edit any staff content'
   - 'edit any testimonial content'
   - 'edit own article content'
   - 'edit own comments'
   - 'edit own news content'
   - 'edit own page content'
   - 'edit own program content'
+  - 'edit own staff content'
   - 'edit own testimonial content'
   - 'edit terms in tags'
   - 'revert all revisions'

@@ -1,5 +1,5 @@
 uuid: 92917b12-3699-4f07-968e-68748a62ae01
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -11,7 +11,7 @@ _core:
 id: cheerful_tan_page_title
 theme: cheerful_tan
 region: content
-weight: -11
+weight: -12
 provider: null
 plugin: page_title_block
 settings:

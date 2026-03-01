@@ -1,0 +1,22 @@
+uuid: aecde790-dc5e-4661-985c-65dcd62551e3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.photoalbum
+id: node.photoalbum.promote
+field_name: promote
+entity_type: node
+bundle: photoalbum
+label: 'Помещено на главную страницу'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

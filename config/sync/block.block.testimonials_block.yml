@@ -12,7 +12,7 @@ dependencies:
 id: testimonials_block
 theme: cheerful_tan
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: 'views_block:testimonials-testimonials_block'
 settings:

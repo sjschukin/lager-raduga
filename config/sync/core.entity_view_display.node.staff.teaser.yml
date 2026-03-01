@@ -1,0 +1,43 @@
+uuid: 2c0482e2-861a-4f2a-9081-d1bc71b54a66
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.staff.field_description
+    - field.field.node.staff.field_image
+    - field.field.node.staff.field_job_title
+    - field.field.node.staff.field_personnel_type
+    - field.field.node.staff.field_sort
+    - image.style.medium
+    - node.type.staff
+  module:
+    - image
+    - user
+id: node.staff.teaser
+targetEntityType: node
+bundle: staff
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_description: true
+  field_job_title: true
+  field_personnel_type: true
+  field_sort: true
+  langcode: true

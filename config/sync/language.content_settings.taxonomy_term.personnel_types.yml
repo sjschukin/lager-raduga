@@ -1,0 +1,11 @@
+uuid: e43a8c84-2895-4070-bc63-ab65f4de4586
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.personnel_types
+id: taxonomy_term.personnel_types
+target_entity_type_id: taxonomy_term
+target_bundle: personnel_types
+default_langcode: site_default
+language_alterable: false

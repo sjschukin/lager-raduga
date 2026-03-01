@@ -1,5 +1,5 @@
 uuid: f7671dd0-e8f8-42fa-8144-b33313d81744
-langcode: en
+langcode: ru
 status: true
 dependencies:
   theme:
@@ -9,7 +9,7 @@ _core:
 id: cheerful_tan_local_actions
 theme: cheerful_tan
 region: content
-weight: -8
+weight: -9
 provider: null
 plugin: local_actions_block
 settings:

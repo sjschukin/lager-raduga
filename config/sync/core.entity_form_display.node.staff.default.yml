@@ -1,0 +1,73 @@
+uuid: 04dc569f-1724-45a6-8b89-7f1a690e9a9c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.staff.field_description
+    - field.field.node.staff.field_image
+    - field.field.node.staff.field_job_title
+    - field.field.node.staff.field_personnel_type
+    - field.field.node.staff.field_sort
+    - image.style.thumbnail
+    - node.type.staff
+  module:
+    - image
+    - text
+id: node.staff.default
+targetEntityType: node
+bundle: staff
+mode: default
+content:
+  field_description:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 4
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_job_title:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_personnel_type:
+    type: options_buttons
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_sort:
+    type: number
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true
