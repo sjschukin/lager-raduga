@@ -24,6 +24,7 @@
         "drupal/core-recipe-unpack": "^11.2",
         "drupal/core-recommended": "^11.2",
         "drupal/pathauto": "^1.13",
+        "drupal/recreate_block_content": "^3.0",
         "drupal/token_block": "^2.0",
         "drupal/views_bootstrap": "^5.5@RC",
         "drush/drush": "^13.6",
