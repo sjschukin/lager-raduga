@@ -622,7 +622,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"team-author-items \">\r\n  <div class=\"thumb\">\r\n    <img src=\"{{ field_image }}\" alt=\"img\">\r\n  </div>\r\n  <div class=\"content\">\r\n    <h2>{{ title }}</h2>\r\n    <span>{{ field_job_title }}</span>\r\n    {{ field_description }}\r\n  </div>\r\n</div>"
+            text: "<div class=\"team-author-items mb-3\">\r\n  <div class=\"thumb\">\r\n    <img src=\"{{ field_image }}\" alt=\"img\">\r\n  </div>\r\n  <div class=\"content\">\r\n    <h2>{{ title }}</h2>\r\n    <span>{{ field_job_title }}</span>\r\n    {{ field_description }}\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -911,7 +911,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"team-author-items \">\r\n  <div class=\"thumb\">\r\n    <img src=\"{{ field_image }}\" alt=\"img\">\r\n  </div>\r\n  <div class=\"content\">\r\n    <h2>{{ title }}</h2>\r\n    <span>{{ field_job_title }}</span>\r\n    {{ field_description }}\r\n  </div>\r\n</div>"
+            text: "<div class=\"team-author-items mb-3\">\r\n  <div class=\"thumb\">\r\n    <img src=\"{{ field_image }}\" alt=\"img\">\r\n  </div>\r\n  <div class=\"content\">\r\n    <h2>{{ title }}</h2>\r\n    <span>{{ field_job_title }}</span>\r\n    {{ field_description }}\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
